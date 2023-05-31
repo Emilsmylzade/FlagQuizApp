@@ -5,8 +5,8 @@ Welcome to the Flag Quiz App! This is an Android app built with Kotlin that test
 ## Screenshots
 
 <div style="display:flex; flex-wrap:wrap; justify-content:center;">
-  <img src="screenshot_1.png" alt="Screenshot 1" width="300" style="margin-right: 20px;">
-  <img src="screenshot_2.png" alt="Screenshot 2" width="300">
+  <img src="quizAppSS1.png" alt="Screenshot 1" width="300" style="margin-right: 20px;">
+  <img src="quizAppSS2.png" alt="Screenshot 2" width="300">
 </div>
 
 ## Features
@@ -14,6 +14,11 @@ Welcome to the Flag Quiz App! This is an Android app built with Kotlin that test
 - **Flag Display**: The app displays a random flag image from a collection of countries.
 - **Multiple Choice**: You are provided with a set of multiple choice options to choose from for each flag.
 - **Score Tracking**: The app keeps track of your score, incrementing it for each correct answer.
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center;">
+  <img src="quizAppSS3.png" alt="Screenshot 1" width="300" style="margin-right: 20px;">
+  <img src="quizAppSS4.png" alt="Screenshot 2" width="300">
+</div>
 
 ## Technologies Used
 
