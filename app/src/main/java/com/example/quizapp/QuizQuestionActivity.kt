@@ -35,6 +35,7 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
     private var tvOptionFour: TextView? = null
 
     private var btnSubmit: Button? = null
+    private var btnReset: Button? = null
 
     private var correctVoiceEffect: MediaPlayer? = null
     private var wrongVoiceEffect: MediaPlayer? = null
@@ -55,6 +56,7 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
         tvOptionFour = findViewById(R.id.tv_optionFour)
 
         btnSubmit = findViewById(R.id.btn_submit)
+        btnReset = findViewById(R.id.btnReset)
 
         tvOptionOne?.setOnClickListener(this)
         tvOptionTwo?.setOnClickListener(this)
@@ -69,6 +71,9 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
 
         setQuestion()
 
+        btnReset?.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))
+        }
     }
 
     private fun setQuestion() {
@@ -201,8 +206,8 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
                         }
                     }
                 }
-
             }
+
         }
     }
 
