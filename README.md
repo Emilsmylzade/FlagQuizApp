@@ -1,6 +1,6 @@
 # Flag Quiz App
 
-Welcome to the Flag Quiz App! This is an Android app built with Kotlin that tests your knowledge of countries by challenging you to guess their flags. The app presents you with various flag images, and you have to correctly identify the corresponding countries.
+Welcome to the Flag Quiz App! This is an Android 12 app built with Kotlin that tests your knowledge of countries by challenging you to guess their flags. The app presents you with various flag images, and you have to correctly identify the corresponding countries.
 
 ## Screenshots
 
